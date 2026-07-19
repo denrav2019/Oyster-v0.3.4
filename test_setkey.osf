@@ -1,0 +1,5 @@
+%h = ("name" => "Oyster", "version" => "0.2.0")
+print(%h)
+
+$x = setkey(%h, "version", "ver")
+print(%h)
